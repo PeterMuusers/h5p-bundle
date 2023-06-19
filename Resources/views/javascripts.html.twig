@@ -1,4 +1,4 @@
-{% if h5pIntegration %}
+{% if h5pIntegration is defined %}
     <script>
         var H5PIntegration = {{ h5pIntegration|json_encode|raw }};
     </script>
