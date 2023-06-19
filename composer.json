@@ -1,5 +1,5 @@
 {
-    "name": "jorisdugue/h5p-bundle",
+    "name": "petermuusers/h5p-op-bundle",
     "type": "symfony-bundle",
     "description": "H5P Bundle for Symfony 4 and Symfony 5",
     "keywords": ["h5p", "symfony", "interactive", "content", "php"],
@@ -21,11 +21,11 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": ">=7.2.5",
         "doctrine/orm": "^2.7",
         "guzzlehttp/guzzle": "^7.3",
-        "h5p/h5p-core": "^1.24",
-        "h5p/h5p-editor": "^1.24",
+        "h5p/h5p-core": "1.24.4",
+        "h5p/h5p-editor": "1.24.4",
         "symfony/framework-bundle": "~4.0|~5.0",
         "symfony/serializer": "~4.0|~5.0",
         "twig/extra-bundle": "^3.0",
